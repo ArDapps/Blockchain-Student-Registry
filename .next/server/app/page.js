@@ -12,24 +12,6 @@ exports.id = "app/page";
 exports.ids = ["app/page"];
 exports.modules = {
 
-/***/ "(ssr)/./node_modules/keyv/src sync recursive":
-/*!*************************************!*\
-  !*** ./node_modules/keyv/src/ sync ***!
-  \*************************************/
-/***/ ((module) => {
-
-function webpackEmptyContext(req) {
-	var e = new Error("Cannot find module '" + req + "'");
-	e.code = 'MODULE_NOT_FOUND';
-	throw e;
-}
-webpackEmptyContext.keys = () => ([]);
-webpackEmptyContext.resolve = webpackEmptyContext;
-webpackEmptyContext.id = "(ssr)/./node_modules/keyv/src sync recursive";
-module.exports = webpackEmptyContext;
-
-/***/ }),
-
 /***/ "./action-async-storage.external":
 /*!****************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external" ***!
@@ -107,39 +89,6 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
-/***/ "websocket":
-/*!****************************!*\
-  !*** external "websocket" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("websocket");
-
-/***/ }),
-
-/***/ "assert":
-/*!*************************!*\
-  !*** external "assert" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("assert");
-
-/***/ }),
-
-/***/ "async_hooks":
-/*!******************************!*\
-  !*** external "async_hooks" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("async_hooks");
-
-/***/ }),
-
 /***/ "buffer":
 /*!*************************!*\
   !*** external "buffer" ***!
@@ -151,138 +100,6 @@ module.exports = require("buffer");
 
 /***/ }),
 
-/***/ "child_process":
-/*!********************************!*\
-  !*** external "child_process" ***!
-  \********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("child_process");
-
-/***/ }),
-
-/***/ "constants":
-/*!****************************!*\
-  !*** external "constants" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("constants");
-
-/***/ }),
-
-/***/ "crypto":
-/*!*************************!*\
-  !*** external "crypto" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("crypto");
-
-/***/ }),
-
-/***/ "dns":
-/*!**********************!*\
-  !*** external "dns" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("dns");
-
-/***/ }),
-
-/***/ "events":
-/*!*************************!*\
-  !*** external "events" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("events");
-
-/***/ }),
-
-/***/ "fs":
-/*!*********************!*\
-  !*** external "fs" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("fs");
-
-/***/ }),
-
-/***/ "http":
-/*!***********************!*\
-  !*** external "http" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("http");
-
-/***/ }),
-
-/***/ "http2":
-/*!************************!*\
-  !*** external "http2" ***!
-  \************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("http2");
-
-/***/ }),
-
-/***/ "https":
-/*!************************!*\
-  !*** external "https" ***!
-  \************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("https");
-
-/***/ }),
-
-/***/ "net":
-/*!**********************!*\
-  !*** external "net" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("net");
-
-/***/ }),
-
-/***/ "node:crypto":
-/*!******************************!*\
-  !*** external "node:crypto" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("node:crypto");
-
-/***/ }),
-
-/***/ "os":
-/*!*********************!*\
-  !*** external "os" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("os");
-
-/***/ }),
-
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -291,61 +108,6 @@ module.exports = require("os");
 
 "use strict";
 module.exports = require("path");
-
-/***/ }),
-
-/***/ "punycode":
-/*!***************************!*\
-  !*** external "punycode" ***!
-  \***************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("punycode");
-
-/***/ }),
-
-/***/ "querystring":
-/*!******************************!*\
-  !*** external "querystring" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("querystring");
-
-/***/ }),
-
-/***/ "stream":
-/*!*************************!*\
-  !*** external "stream" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("stream");
-
-/***/ }),
-
-/***/ "string_decoder":
-/*!*********************************!*\
-  !*** external "string_decoder" ***!
-  \*********************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("string_decoder");
-
-/***/ }),
-
-/***/ "tls":
-/*!**********************!*\
-  !*** external "tls" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("tls");
 
 /***/ }),
 
@@ -368,28 +130,6 @@ module.exports = require("url");
 
 "use strict";
 module.exports = require("util");
-
-/***/ }),
-
-/***/ "vm":
-/*!*********************!*\
-  !*** external "vm" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("vm");
-
-/***/ }),
-
-/***/ "zlib":
-/*!***********************!*\
-  !*** external "zlib" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("zlib");
 
 /***/ }),
 
@@ -441,7 +181,7 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var web3__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! web3 */ \"(ssr)/./node_modules/web3/lib/index.js\");\n/* harmony import */ var web3__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(web3__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _public_abis_abi_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/public/abis/abi.json */ \"(ssr)/./public/abis/abi.json\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\nfunction Home() {\n    const [web3, setWeb3] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const [contract, setContract] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const [studentCount, setStudentCount] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);\n    const [students, setStudents] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        async function loadWeb3() {\n            const web3Instance = new (web3__WEBPACK_IMPORTED_MODULE_2___default())(new (web3__WEBPACK_IMPORTED_MODULE_2___default().providers).HttpProvider(\"https://sepolia.infura.io/v3/2DiCkycqv7iRSBycgAS5S2KoW86\"));\n            setWeb3(web3Instance);\n            const contractInstance = new web3Instance.eth.Contract(_public_abis_abi_json__WEBPACK_IMPORTED_MODULE_3__, \"0x2865bbd262cd36f9c2bd06cf2691d0cb018a427e\");\n            setContract(contractInstance);\n            const count = await contractInstance.methods.studentCount().call();\n            setStudentCount(count);\n            const studentsData = await Promise.all(Array.from({\n                length: count\n            }, (_, i)=>contractInstance.methods.getStudent(i + 1).call()));\n            console.log(studentsData);\n            setStudents(studentsData);\n        }\n        loadWeb3();\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Student Registry\"\n            }, void 0, false, {\n                fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                lineNumber: 46,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Total Students: \",\n                    studentCount\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                lineNumber: 47,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                children: students && students.map((student, index)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                        children: [\n                            \"Name: \",\n                            student.name,\n                            \", Section: \",\n                            student.section\n                        ]\n                    }, index, true, {\n                        fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                        lineNumber: 51,\n                        columnNumber: 13\n                    }, this))\n            }, void 0, false, {\n                fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                lineNumber: 48,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n        lineNumber: 45,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvcGFnZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQzRDO0FBQ3BCO0FBQ2lCO0FBQzFCLFNBQVNJO0lBQ3RCLE1BQU0sQ0FBQ0MsTUFBTUMsUUFBUSxHQUFHTCwrQ0FBUUEsQ0FBYztJQUM5QyxNQUFNLENBQUNNLFVBQVVDLFlBQVksR0FBR1AsK0NBQVFBLENBQWE7SUFDckQsTUFBTSxDQUFDUSxjQUFjQyxnQkFBZ0IsR0FBR1QsK0NBQVFBLENBQVM7SUFDekQsTUFBTSxDQUFDVSxVQUFVQyxZQUFZLEdBQUdYLCtDQUFRQSxDQUN0QyxFQUFFO0lBR0pELGdEQUFTQSxDQUFDO1FBQ1IsZUFBZWE7WUFDYixNQUFNQyxlQUFlLElBQUlaLDZDQUFJQSxDQUMzQixJQUFJQSx1REFBYyxDQUFDYyxZQUFZLENBQzdCO1lBR0pWLFFBQVFRO1lBRVIsTUFBTUcsbUJBQW1CLElBQUlILGFBQWFJLEdBQUcsQ0FBQ0MsUUFBUSxDQUNwRGhCLGtEQUFHQSxFQUNIO1lBRUZLLFlBQVlTO1lBRVosTUFBTUcsUUFBUSxNQUFNSCxpQkFBaUJJLE9BQU8sQ0FBQ1osWUFBWSxHQUFHYSxJQUFJO1lBQ2hFWixnQkFBZ0JVO1lBRWhCLE1BQU1HLGVBQWUsTUFBTUMsUUFBUUMsR0FBRyxDQUNwQ0MsTUFBTUMsSUFBSSxDQUFDO2dCQUFFQyxRQUFRUjtZQUFNLEdBQUcsQ0FBQ1MsR0FBR0MsSUFDaENiLGlCQUFpQkksT0FBTyxDQUFDVSxVQUFVLENBQUNELElBQUksR0FBR1IsSUFBSTtZQUluRFUsUUFBUUMsR0FBRyxDQUFDVjtZQUNaWCxZQUFZVztRQUNkO1FBRUFWO0lBQ0YsR0FBRyxFQUFFO0lBRUwscUJBQ0UsOERBQUNxQjs7MEJBQ0MsOERBQUNDOzBCQUFHOzs7Ozs7MEJBQ0osOERBQUNDOztvQkFBRTtvQkFBaUIzQjs7Ozs7OzswQkFDcEIsOERBQUM0QjswQkFDRTFCLFlBQ0NBLFNBQVMyQixHQUFHLENBQUMsQ0FBQ0MsU0FBU0Msc0JBQ3JCLDhEQUFDQzs7NEJBQWU7NEJBQ1BGLFFBQVFHLElBQUk7NEJBQUM7NEJBQVlILFFBQVFJLE9BQU87O3VCQUR4Q0g7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPckIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1hcHAvLi9hcHAvcGFnZS50c3g/NzYwMyJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBjbGllbnRcIjtcbmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBXZWIzIGZyb20gXCJ3ZWIzXCI7XG5pbXBvcnQgYWJpIGZyb20gXCJAL3B1YmxpYy9hYmlzL2FiaS5qc29uXCI7XG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xuICBjb25zdCBbd2ViMywgc2V0V2ViM10gPSB1c2VTdGF0ZTxXZWIzIHwgbnVsbD4obnVsbCk7XG4gIGNvbnN0IFtjb250cmFjdCwgc2V0Q29udHJhY3RdID0gdXNlU3RhdGU8YW55IHwgbnVsbD4obnVsbCk7XG4gIGNvbnN0IFtzdHVkZW50Q291bnQsIHNldFN0dWRlbnRDb3VudF0gPSB1c2VTdGF0ZTxudW1iZXI+KDApO1xuICBjb25zdCBbc3R1ZGVudHMsIHNldFN0dWRlbnRzXSA9IHVzZVN0YXRlPHsgbmFtZTogc3RyaW5nOyBzZWN0aW9uOiBzdHJpbmcgfVtdPihcbiAgICBbXVxuICApO1xuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgYXN5bmMgZnVuY3Rpb24gbG9hZFdlYjMoKSB7XG4gICAgICBjb25zdCB3ZWIzSW5zdGFuY2UgPSBuZXcgV2ViMyhcbiAgICAgICAgbmV3IFdlYjMucHJvdmlkZXJzLkh0dHBQcm92aWRlcihcbiAgICAgICAgICBcImh0dHBzOi8vc2Vwb2xpYS5pbmZ1cmEuaW8vdjMvMkRpQ2t5Y3F2N2lSU0J5Y2dBUzVTMktvVzg2XCJcbiAgICAgICAgKVxuICAgICAgKTtcbiAgICAgIHNldFdlYjMod2ViM0luc3RhbmNlKTtcblxuICAgICAgY29uc3QgY29udHJhY3RJbnN0YW5jZSA9IG5ldyB3ZWIzSW5zdGFuY2UuZXRoLkNvbnRyYWN0KFxuICAgICAgICBhYmkgYXMgYW55LFxuICAgICAgICBcIjB4Mjg2NWJiZDI2MmNkMzZmOWMyYmQwNmNmMjY5MWQwY2IwMThhNDI3ZVwiXG4gICAgICApO1xuICAgICAgc2V0Q29udHJhY3QoY29udHJhY3RJbnN0YW5jZSk7XG5cbiAgICAgIGNvbnN0IGNvdW50ID0gYXdhaXQgY29udHJhY3RJbnN0YW5jZS5tZXRob2RzLnN0dWRlbnRDb3VudCgpLmNhbGwoKTtcbiAgICAgIHNldFN0dWRlbnRDb3VudChjb3VudCk7XG5cbiAgICAgIGNvbnN0IHN0dWRlbnRzRGF0YSA9IGF3YWl0IFByb21pc2UuYWxsKFxuICAgICAgICBBcnJheS5mcm9tKHsgbGVuZ3RoOiBjb3VudCB9LCAoXywgaSkgPT5cbiAgICAgICAgICBjb250cmFjdEluc3RhbmNlLm1ldGhvZHMuZ2V0U3R1ZGVudChpICsgMSkuY2FsbCgpXG4gICAgICAgIClcbiAgICAgICk7XG5cbiAgICAgIGNvbnNvbGUubG9nKHN0dWRlbnRzRGF0YSk7XG4gICAgICBzZXRTdHVkZW50cyhzdHVkZW50c0RhdGEpO1xuICAgIH1cblxuICAgIGxvYWRXZWIzKCk7XG4gIH0sIFtdKTtcblxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8aDE+U3R1ZGVudCBSZWdpc3RyeTwvaDE+XG4gICAgICA8cD5Ub3RhbCBTdHVkZW50czoge3N0dWRlbnRDb3VudH08L3A+XG4gICAgICA8dWw+XG4gICAgICAgIHtzdHVkZW50cyAmJlxuICAgICAgICAgIHN0dWRlbnRzLm1hcCgoc3R1ZGVudCwgaW5kZXgpID0+IChcbiAgICAgICAgICAgIDxsaSBrZXk9e2luZGV4fT5cbiAgICAgICAgICAgICAgTmFtZToge3N0dWRlbnQubmFtZX0sIFNlY3Rpb246IHtzdHVkZW50LnNlY3Rpb259XG4gICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICkpfVxuICAgICAgPC91bD5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJ1c2VFZmZlY3QiLCJ1c2VTdGF0ZSIsIldlYjMiLCJhYmkiLCJIb21lIiwid2ViMyIsInNldFdlYjMiLCJjb250cmFjdCIsInNldENvbnRyYWN0Iiwic3R1ZGVudENvdW50Iiwic2V0U3R1ZGVudENvdW50Iiwic3R1ZGVudHMiLCJzZXRTdHVkZW50cyIsImxvYWRXZWIzIiwid2ViM0luc3RhbmNlIiwicHJvdmlkZXJzIiwiSHR0cFByb3ZpZGVyIiwiY29udHJhY3RJbnN0YW5jZSIsImV0aCIsIkNvbnRyYWN0IiwiY291bnQiLCJtZXRob2RzIiwiY2FsbCIsInN0dWRlbnRzRGF0YSIsIlByb21pc2UiLCJhbGwiLCJBcnJheSIsImZyb20iLCJsZW5ndGgiLCJfIiwiaSIsImdldFN0dWRlbnQiLCJjb25zb2xlIiwibG9nIiwiZGl2IiwiaDEiLCJwIiwidWwiLCJtYXAiLCJzdHVkZW50IiwiaW5kZXgiLCJsaSIsIm5hbWUiLCJzZWN0aW9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./app/page.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var ethers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ethers */ \"(ssr)/./node_modules/@ethersproject/providers/lib.esm/json-rpc-provider.js\");\n/* harmony import */ var ethers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ethers */ \"(ssr)/./node_modules/@ethersproject/contracts/lib.esm/index.js\");\n/* harmony import */ var _public_abis_abi_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/public/abis/abi.json */ \"(ssr)/./public/abis/abi.json\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\nfunction Home() {\n    const [provider, setProvider] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const [contract, setContract] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const [studentCount, setStudentCount] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);\n    const [students, setStudents] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        async function loadProviderAndContract() {\n            const infuraUrl = \"https://sepolia.infura.io/v3/2DiCkycqv7iRSBycgAS5S2KoW86\";\n            const provider = new ethers__WEBPACK_IMPORTED_MODULE_3__.JsonRpcProvider(infuraUrl);\n            setProvider(provider);\n            const contractAddress = \"0x2865bbd262cd36f9c2bd06cf2691d0cb018a427e\";\n            const contractInstance = new ethers__WEBPACK_IMPORTED_MODULE_4__.Contract(contractAddress, _public_abis_abi_json__WEBPACK_IMPORTED_MODULE_2__);\n            setContract(contractInstance);\n            const count = await contractInstance.studentCount();\n            setStudentCount(count.toNumber());\n            const studentsData = await Promise.all(Array.from({\n                length: count.toNumber()\n            }, (_, i)=>contractInstance.getStudent(i + 1)));\n            console.log(studentsData);\n            setStudents(studentsData);\n        }\n        loadProviderAndContract();\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Student Registry\"\n            }, void 0, false, {\n                fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                lineNumber: 44,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Total Students: \",\n                    studentCount\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                lineNumber: 45,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                children: students && students.map((student, index)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                        children: [\n                            \"Name: \",\n                            student.name,\n                            \", Section: \",\n                            student.section\n                        ]\n                    }, index, true, {\n                        fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                        lineNumber: 49,\n                        columnNumber: 13\n                    }, this))\n            }, void 0, false, {\n                fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n                lineNumber: 46,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/mrbebo/Documents/Github/Blockchain-Student-Registry/app/page.tsx\",\n        lineNumber: 43,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvcGFnZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQzRDO0FBQ1o7QUFDUztBQUUxQixTQUFTSTtJQUN0QixNQUFNLENBQUNDLFVBQVVDLFlBQVksR0FDM0JMLCtDQUFRQSxDQUEwQztJQUNwRCxNQUFNLENBQUNNLFVBQVVDLFlBQVksR0FBR1AsK0NBQVFBLENBQXlCO0lBQ2pFLE1BQU0sQ0FBQ1EsY0FBY0MsZ0JBQWdCLEdBQUdULCtDQUFRQSxDQUFTO0lBQ3pELE1BQU0sQ0FBQ1UsVUFBVUMsWUFBWSxHQUFHWCwrQ0FBUUEsQ0FDdEMsRUFBRTtJQUdKRCxnREFBU0EsQ0FBQztRQUNSLGVBQWVhO1lBQ2IsTUFBTUMsWUFDSjtZQUNGLE1BQU1ULFdBQVcsSUFBSUgsbURBQWdDLENBQUNZO1lBQ3REUixZQUFZRDtZQUVaLE1BQU1ZLGtCQUFrQjtZQUN4QixNQUFNQyxtQkFBbUIsSUFBSWhCLDRDQUFlLENBQUNlLGlCQUFpQmQsa0RBQUdBO1lBQ2pFSyxZQUFZVTtZQUVaLE1BQU1FLFFBQVEsTUFBTUYsaUJBQWlCVCxZQUFZO1lBQ2pEQyxnQkFBZ0JVLE1BQU1DLFFBQVE7WUFFOUIsTUFBTUMsZUFBZSxNQUFNQyxRQUFRQyxHQUFHLENBQ3BDQyxNQUFNQyxJQUFJLENBQUM7Z0JBQUVDLFFBQVFQLE1BQU1DLFFBQVE7WUFBRyxHQUFHLENBQUNPLEdBQUdDLElBQzNDWCxpQkFBaUJZLFVBQVUsQ0FBQ0QsSUFBSTtZQUlwQ0UsUUFBUUMsR0FBRyxDQUFDVjtZQUNaVixZQUFZVTtRQUNkO1FBRUFUO0lBQ0YsR0FBRyxFQUFFO0lBRUwscUJBQ0UsOERBQUNvQjs7MEJBQ0MsOERBQUNDOzBCQUFHOzs7Ozs7MEJBQ0osOERBQUNDOztvQkFBRTtvQkFBaUIxQjs7Ozs7OzswQkFDcEIsOERBQUMyQjswQkFDRXpCLFlBQ0NBLFNBQVMwQixHQUFHLENBQUMsQ0FBQ0MsU0FBU0Msc0JBQ3JCLDhEQUFDQzs7NEJBQWU7NEJBQ1BGLFFBQVFHLElBQUk7NEJBQUM7NEJBQVlILFFBQVFJLE9BQU87O3VCQUR4Q0g7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPckIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1hcHAvLi9hcHAvcGFnZS50c3g/NzYwMyJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBjbGllbnRcIjtcbmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IGV0aGVycyB9IGZyb20gXCJldGhlcnNcIjtcbmltcG9ydCBhYmkgZnJvbSBcIkAvcHVibGljL2FiaXMvYWJpLmpzb25cIjtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcbiAgY29uc3QgW3Byb3ZpZGVyLCBzZXRQcm92aWRlcl0gPVxuICAgIHVzZVN0YXRlPGV0aGVycy5wcm92aWRlcnMuSnNvblJwY1Byb3ZpZGVyIHwgbnVsbD4obnVsbCk7XG4gIGNvbnN0IFtjb250cmFjdCwgc2V0Q29udHJhY3RdID0gdXNlU3RhdGU8ZXRoZXJzLkNvbnRyYWN0IHwgbnVsbD4obnVsbCk7XG4gIGNvbnN0IFtzdHVkZW50Q291bnQsIHNldFN0dWRlbnRDb3VudF0gPSB1c2VTdGF0ZTxudW1iZXI+KDApO1xuICBjb25zdCBbc3R1ZGVudHMsIHNldFN0dWRlbnRzXSA9IHVzZVN0YXRlPHsgbmFtZTogc3RyaW5nOyBzZWN0aW9uOiBzdHJpbmcgfVtdPihcbiAgICBbXVxuICApO1xuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgYXN5bmMgZnVuY3Rpb24gbG9hZFByb3ZpZGVyQW5kQ29udHJhY3QoKSB7XG4gICAgICBjb25zdCBpbmZ1cmFVcmwgPVxuICAgICAgICBcImh0dHBzOi8vc2Vwb2xpYS5pbmZ1cmEuaW8vdjMvMkRpQ2t5Y3F2N2lSU0J5Y2dBUzVTMktvVzg2XCI7XG4gICAgICBjb25zdCBwcm92aWRlciA9IG5ldyBldGhlcnMucHJvdmlkZXJzLkpzb25ScGNQcm92aWRlcihpbmZ1cmFVcmwpO1xuICAgICAgc2V0UHJvdmlkZXIocHJvdmlkZXIpO1xuXG4gICAgICBjb25zdCBjb250cmFjdEFkZHJlc3MgPSBcIjB4Mjg2NWJiZDI2MmNkMzZmOWMyYmQwNmNmMjY5MWQwY2IwMThhNDI3ZVwiO1xuICAgICAgY29uc3QgY29udHJhY3RJbnN0YW5jZSA9IG5ldyBldGhlcnMuQ29udHJhY3QoY29udHJhY3RBZGRyZXNzLCBhYmkpO1xuICAgICAgc2V0Q29udHJhY3QoY29udHJhY3RJbnN0YW5jZSk7XG5cbiAgICAgIGNvbnN0IGNvdW50ID0gYXdhaXQgY29udHJhY3RJbnN0YW5jZS5zdHVkZW50Q291bnQoKTtcbiAgICAgIHNldFN0dWRlbnRDb3VudChjb3VudC50b051bWJlcigpKTtcblxuICAgICAgY29uc3Qgc3R1ZGVudHNEYXRhID0gYXdhaXQgUHJvbWlzZS5hbGwoXG4gICAgICAgIEFycmF5LmZyb20oeyBsZW5ndGg6IGNvdW50LnRvTnVtYmVyKCkgfSwgKF8sIGkpID0+XG4gICAgICAgICAgY29udHJhY3RJbnN0YW5jZS5nZXRTdHVkZW50KGkgKyAxKVxuICAgICAgICApXG4gICAgICApO1xuXG4gICAgICBjb25zb2xlLmxvZyhzdHVkZW50c0RhdGEpO1xuICAgICAgc2V0U3R1ZGVudHMoc3R1ZGVudHNEYXRhKTtcbiAgICB9XG5cbiAgICBsb2FkUHJvdmlkZXJBbmRDb250cmFjdCgpO1xuICB9LCBbXSk7XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGgxPlN0dWRlbnQgUmVnaXN0cnk8L2gxPlxuICAgICAgPHA+VG90YWwgU3R1ZGVudHM6IHtzdHVkZW50Q291bnR9PC9wPlxuICAgICAgPHVsPlxuICAgICAgICB7c3R1ZGVudHMgJiZcbiAgICAgICAgICBzdHVkZW50cy5tYXAoKHN0dWRlbnQsIGluZGV4KSA9PiAoXG4gICAgICAgICAgICA8bGkga2V5PXtpbmRleH0+XG4gICAgICAgICAgICAgIE5hbWU6IHtzdHVkZW50Lm5hbWV9LCBTZWN0aW9uOiB7c3R1ZGVudC5zZWN0aW9ufVxuICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICApKX1cbiAgICAgIDwvdWw+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJldGhlcnMiLCJhYmkiLCJIb21lIiwicHJvdmlkZXIiLCJzZXRQcm92aWRlciIsImNvbnRyYWN0Iiwic2V0Q29udHJhY3QiLCJzdHVkZW50Q291bnQiLCJzZXRTdHVkZW50Q291bnQiLCJzdHVkZW50cyIsInNldFN0dWRlbnRzIiwibG9hZFByb3ZpZGVyQW5kQ29udHJhY3QiLCJpbmZ1cmFVcmwiLCJwcm92aWRlcnMiLCJKc29uUnBjUHJvdmlkZXIiLCJjb250cmFjdEFkZHJlc3MiLCJjb250cmFjdEluc3RhbmNlIiwiQ29udHJhY3QiLCJjb3VudCIsInRvTnVtYmVyIiwic3R1ZGVudHNEYXRhIiwiUHJvbWlzZSIsImFsbCIsIkFycmF5IiwiZnJvbSIsImxlbmd0aCIsIl8iLCJpIiwiZ2V0U3R1ZGVudCIsImNvbnNvbGUiLCJsb2ciLCJkaXYiLCJoMSIsInAiLCJ1bCIsIm1hcCIsInN0dWRlbnQiLCJpbmRleCIsImxpIiwibmFtZSIsInNlY3Rpb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./app/page.tsx\n");
 
 /***/ }),
 
@@ -525,7 +265,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"inputs":[{"internalType":"string","
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@ethereumjs","vendor-chunks/swarm-js","vendor-chunks/@ethersproject","vendor-chunks/bluebird","vendor-chunks/fs-extra","vendor-chunks/tar","vendor-chunks/elliptic","vendor-chunks/readable-stream","vendor-chunks/asn1.js","vendor-chunks/ethereumjs-util","vendor-chunks/web3-eth-accounts","vendor-chunks/mock-fs","vendor-chunks/hash.js","vendor-chunks/http2-wrapper","vendor-chunks/cids","vendor-chunks/web3-eth-ens","vendor-chunks/multihashes","vendor-chunks/keccak","vendor-chunks/public-encrypt","vendor-chunks/multicodec","vendor-chunks/mkdirp","vendor-chunks/xhr2-cookies","vendor-chunks/pbkdf2","vendor-chunks/multibase","vendor-chunks/secp256k1","vendor-chunks/parse-asn1","vendor-chunks/@noble","vendor-chunks/xhr-request","vendor-chunks/web3-utils","vendor-chunks/web3-core-requestmanager","vendor-chunks/varint","vendor-chunks/graceful-fs","vendor-chunks/ethereum-cryptography","vendor-chunks/web3-core-helpers","vendor-chunks/minizlib","vendor-chunks/eth-lib","vendor-chunks/content-hash","vendor-chunks/browserify-sign","vendor-chunks/yallist","vendor-chunks/web3","vendor-chunks/web3-providers-ws","vendor-chunks/web3-eth","vendor-chunks/web3-core","vendor-chunks/web3-core-subscriptions","vendor-chunks/rlp","vendor-chunks/randomfill","vendor-chunks/number-to-bn","vendor-chunks/node-gyp-build","vendor-chunks/mime-db","vendor-chunks/inherits","vendor-chunks/idna-uts46-hx","vendor-chunks/fs-minipass","vendor-chunks/ethjs-unit","vendor-chunks/ethereum-bloom-filters","vendor-chunks/eth-ens-namehash","vendor-chunks/create-ecdh","vendor-chunks/browserify-rsa","vendor-chunks/wrappy","vendor-chunks/web3-shh","vendor-chunks/web3-providers-ipc","vendor-chunks/web3-providers-http","vendor-chunks/web3-net","vendor-chunks/web3-eth-personal","vendor-chunks/web3-eth-iban","vendor-chunks/web3-eth-contract","vendor-chunks/web3-eth-abi","vendor-chunks/web3-core-promievent","vendor-chunks/web3-core-method","vendor-chunks/web3-bzz","vendor-chunks/util-deprecate","vendor-chunks/utf8","vendor-chunks/url-set-query","vendor-chunks/universalify","vendor-chunks/timed-out","vendor-chunks/strip-hex-prefix","vendor-chunks/string_decoder","vendor-chunks/strict-uri-encode","vendor-chunks/simple-get","vendor-chunks/simple-concat","vendor-chunks/scrypt-js","vendor-chunks/safe-buffer","vendor-chunks/resolve-alpn","vendor-chunks/randombytes","vendor-chunks/quick-lru","vendor-chunks/query-string","vendor-chunks/pump","vendor-chunks/once","vendor-chunks/oboe","vendor-chunks/object-assign","vendor-chunks/mkdirp-promise","vendor-chunks/minimalistic-crypto-utils","vendor-chunks/minimalistic-assert","vendor-chunks/mimic-response","vendor-chunks/mime-types","vendor-chunks/md5.js","vendor-chunks/keyv","vendor-chunks/jsonfile","vendor-chunks/json-buffer","vendor-chunks/js-sha3","vendor-chunks/is-hex-prefixed","vendor-chunks/http-cache-semantics","vendor-chunks/hmac-drbg","vendor-chunks/hash-base","vendor-chunks/evp_bytestokey","vendor-chunks/eventemitter3","vendor-chunks/end-of-stream","vendor-chunks/diffie-hellman","vendor-chunks/decompress-response","vendor-chunks/decode-uri-component","vendor-chunks/crypto-browserify","vendor-chunks/create-hmac","vendor-chunks/create-hash","vendor-chunks/crc-32","vendor-chunks/cookiejar","vendor-chunks/clone-response","vendor-chunks/class-is","vendor-chunks/chownr","vendor-chunks/cacheable-lookup","vendor-chunks/buffer-to-arraybuffer","vendor-chunks/browserify-cipher","vendor-chunks/browserify-aes","vendor-chunks/brorand","vendor-chunks/bn.js","vendor-chunks/base-x"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fmrbebo%2FDocuments%2FGithub%2FBlockchain-Student-Registry%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmrbebo%2FDocuments%2FGithub%2FBlockchain-Student-Registry&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@ethersproject","vendor-chunks/hash.js","vendor-chunks/@swc","vendor-chunks/inherits","vendor-chunks/minimalistic-assert","vendor-chunks/js-sha3","vendor-chunks/bech32"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fmrbebo%2FDocuments%2FGithub%2FBlockchain-Student-Registry%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmrbebo%2FDocuments%2FGithub%2FBlockchain-Student-Registry&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
